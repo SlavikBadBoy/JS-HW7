@@ -37,10 +37,10 @@ for (let i = 1; i <= tenNumbers.length; i += tenNumbers) {
     maxNumbers = tenNumbers[i]; // Якщо так, оновлюємо max
   }
 }
-console.log(maxNumbers); // Виводимо максимальне значення в консоль
+console.log(maxNumbers); 
 
 // Створити масив з 10-ти чисел. Знайти всі парні числа в масиві та вивести їх на екран.
-for (let i = 0; i < tenNumbers.length; i++) {
+for (let i = 0; i <= tenNumbers.length; i+= tenNumbers) {
   if (tenNumbers[i] % 2 === 0) {
     console.log(tenNumbers[i]);
   }
